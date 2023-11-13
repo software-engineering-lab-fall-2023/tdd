@@ -10,4 +10,20 @@ public class Rectangle extends Polygon {
     public double computeArea() {
         return sidesLengths[0] * sidesLengths[1];
     }
+
+    public double getLength() {
+        return sidesLengths[0];
+    }
+
+    public double getWidth() {
+        return sidesLengths[1];
+    }
+
+    public void setLength(double length) {
+        sidesLengths[0] = length;
+    }
+
+    public void setWidth(double width) {
+        sidesLengths[1] = width;
+    }
 }
